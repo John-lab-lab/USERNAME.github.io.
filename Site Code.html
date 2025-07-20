@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1"/>
+  <title>Wireframe Works</title>
+  <style>
+    body {font-family:sans-serif; margin:0; padding:0; color:#333;}
+    header {background:#0066cc; color:#fff; padding:60px 20px; text-align:center;}
+    section{padding:40px 20px; max-width:800px; margin:auto;}
+    .btn {background:#004999; color:#fff; padding:12px 24px; text-decoration:none; border-radius:4px;}
+    .services, .portfolio {display:grid; grid-template-columns:1fr; gap:20px;}
+    footer {background:#f2f2f2; padding:20px; text-align:center;}
+    @media(min-width:600px){ .services, .portfolio {grid-template-columns:1fr 1fr;} }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Wireframe?Works</h1>
+    <p>Smart, simple websites for small businesses.</p>
+    <a href="#contact" class="btn">Get a Free Quote</a>
+  </header>
+
+  <section id="about">
+    <h2>About Us</h2>
+    <p>We’re a UK-based web design service delivering beautiful, budget-friendly websites for small businesses and freelancers—all built to last and easy to manage.</p>
+  </section>
+
+  <section id="services">
+    <h2>Our Services</h2>
+    <div class="services">
+      <div><h3>One-page Websites</h3><p>Perfect for simple brands or startups. From £79.</p></div>
+      <div><h3>Portfolio Sites</h3><p>Show off your creative work with confidence.</p></div>
+      <div><h3>Landing Pages</h3><p>Promote events, services, campaigns.</p></div>
+      <div><h3>Site Redesigns</h3><p>Speed, aesthetics, mobile-ready.</p></div>
+    </div>
+  </section>
+
+  <section id="portfolio">
+    <h2>Example Projects (Coming Soon!)</h2>
+    <div class="portfolio">
+      <div><img src="https://via.placeholder.com/300x200" alt="Example project 1"><p>Project One</p></div>
+      <div><img src="https://via.placeholder.com/300x200" alt="Example project 2"><p>Project Two</p></div>
+      <div><img src="https://via.placeholder.com/300x200" alt="Example project 3"><p>Project Three</p></div>
+      <div><img src="https://via.placeholder.com/300x200" alt="Example project 4"><p>Project Four</p></div>
+    </div>
+  </section>
+
+  <section id="contact">
+    <h2>Contact Us</h2>
+    <p>Email us at <a href="mailto:martinrussell@wireframeworks.co.uk">martinrussell@wireframeworks.co.uk</a> or send a message below:</p>
+    <!-- Add form integration (e.g., Formspree) later -->
+  </section>
+
+  <footer>
+    <p>© Wireframe Works — Web design that’s affordable & effective.</p>
+  </footer>
+</body>
+</html>
